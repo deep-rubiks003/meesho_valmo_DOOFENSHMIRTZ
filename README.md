@@ -6,7 +6,7 @@
 
 A clickable, single-parcel prototype that makes the delivery journey visible from checkout to doorstep outcome. Follow the same parcel as it moves through **Operations**, the **Rider app**, the **Recipient app**, and **Nearby Finds**.
 
-![Prototype]([https://img.shields.io/badge/Prototype-Interactive-8A255E?style=for-the-badge](https://teal-fairy-088a54.netlify.app/))
+![Prototype]([https://img.shields.io/badge/Prototype-Interactive-8A255E?style=for-the-badge][(https://teal-fairy-088a54.netlify.app/)])
 ![Stack](https://img.shields.io/badge/Stack-Vanilla%20HTML%20%7C%20CSS%20%7C%20JavaScript-401638?style=for-the-badge)
 ![Dependencies](https://img.shields.io/badge/Dependencies-None-18805F?style=for-the-badge)
 
