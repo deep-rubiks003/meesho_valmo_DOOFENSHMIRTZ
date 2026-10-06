@@ -1,0 +1,47 @@
+{
+  "title": "Choose the parcel journey layout",
+  "question": "The product flow and Meesho-inspired visual cues are confirmed. Which screen structure should carry the prototype? Compare how clearly it shows one parcel, all four roles, and both outcome branches. The images are high-fidelity layout mockups, not build screenshots.",
+  "options": [
+    {
+      "id": "journey-stage",
+      "label": "Guided journey stage",
+      "kicker": "THE ROLL",
+      "lineage": "One parcel, presented as a live walkthrough",
+      "thesis": "Move through the parcel story one decision at a time, with one role's working screen in focus.",
+      "palette": ["#5A1747", "#ED477E", "#F28B33", "#FFF6F0"],
+      "materials": ["Commerce cards", "Progress rail", "Shared event log"],
+      "viewport": "A checkout-to-delivery rail anchors the top; the role view fills the center; the parcel event log and branch controls stay visible below.",
+      "case": "The presenter can guide judges from checkout to either outcome without losing the parcel's current state.",
+      "risk": "Switching roles is explicit; viewers may not see every role's screen at once.",
+      "comp": ".impeccable/mocks/decision/journey-stage.png"
+    },
+    {
+      "id": "operations-workbench",
+      "label": "Shared parcel workbench",
+      "lineage": "Operations workspace with role-specific companion views",
+      "thesis": "Keep parcel status, owner, next action and full history in a persistent operations workspace.",
+      "palette": ["#4D1942", "#E85D35", "#FFF4E9", "#F8DDE5"],
+      "materials": ["Parcel ledger", "Action queue", "Role preview"],
+      "viewport": "The selected parcel and journey stage lead; event history occupies the main column; operations action and linked rider/customer preview sit alongside.",
+      "case": "Strongest for explaining system ownership and showing how a role action changes the same record.",
+      "risk": "Can feel more like an admin dashboard than a complete customer experience.",
+      "comp": ".impeccable/mocks/decision/operations-workbench.png"
+    },
+    {
+      "id": "handoff-blueprint",
+      "label": "Four-role handoff map",
+      "lineage": "Service blueprint aligned by time and responsibility",
+      "thesis": "Make every handoff visible by aligning Operations, Rider, Recipient and Nearby Buyer on one shared journey.",
+      "palette": ["#5A1747", "#EA4777", "#F2872F", "#FFF8EF"],
+      "materials": ["Role lanes", "Parcel event spine", "Branch markers"],
+      "viewport": "The parcel's stages run left to right and four labeled role lanes run top to bottom, with actions and outcomes aligned at each handoff.",
+      "case": "Makes the shared system and branch logic obvious in a single glance.",
+      "risk": "Dense on small screens; each role's interface is less immersive in the overview.",
+      "comp": ".impeccable/mocks/decision/handoff-blueprint.png"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "steer": true,
+  "buildPath": { "value": "comp", "toggle": true }
+}
+
